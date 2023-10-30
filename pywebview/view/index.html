@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Application Form</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">English4Devs - Application Form</h1>
+            <p id="description"><b>Thank you for choosing to learn with us!</b></p>
+        </header>
+        <form id="survey-form">
+            <label class="questions" id="name-label">Name <input id="name" type="text" placeholder="Enter Your Name"></label><br>
+            <label class="questions" id="number-label">Number<br><input id="number" type="text" placeholder="Enter Your Number"></label><br>
+            <button class="survey-group" id="submit" onclick="send_data()">Submit</button>
+        </form>
+    </div>
+    <div id="response-container"></div>
+    <script src="myScript.js"></script>
+</body>
+</html>

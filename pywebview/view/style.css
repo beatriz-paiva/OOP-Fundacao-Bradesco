@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #BD8468;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 16px;
+  
+}
+
+header{
+  margin-top: 1em;
+}
+
+#survey-form{
+  background-color: #8A604C;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  padding: 30px;
+}
+  
+h1, p[id="description"]{
+  text-align: center;
+}
+
+p{
+  padding-top: 10px;
+}
+
+form{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 1 auto;
+  padding-bottom: 2em;
+}
+  
+fieldset{
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+  
+fieldset:last-of-type{
+  border-bottom: none;
+}
+
+.questions{
+  font-weight: 600;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+  
+input, button[id ="submit"], textarea{
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  
+}
+  
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="number"]{
+  width: 50%;
+  min-height: 1.5em;
+  margin: 10px 0 0 0;
+}
+  
+button[id="submit"]{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  font-size: 1.1rem;
+  background-color: #000000;
+  min-width: 300px;
+  color: #ffffff;
+}
+  
+input[type="file"]{
+  padding: 1px 2px;
+}
+
+input[type="text"], button[id="submit"], input[type="email"], select, textarea{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2.5em;
+  border-radius: 4px;
+}
+  
+textarea{
+  resize: none;
+}
+
+#survey-form{
+  border-radius: 4px;
+}
+  
