@@ -1,4 +1,4 @@
-import webview
+import webview as view
 
-webview.create_window('Get elements example', r'C:\Documentos\GitHub\OOP-Fundacao-Bradesco\teste.html')
-webview.start(debug=True)
+view.create_window('Get elements example', r'C:\Documentos\GitHub\OOP-Fundacao-Bradesco\teste.html')
+view.start(debug=True)
