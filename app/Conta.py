@@ -16,7 +16,6 @@ class Conta:
             else:
                 self._saldo = saldo
 
-    
     def saque(self, valor):
         if(self.saldo>=valor):
             self.saldo -= valor
@@ -29,3 +28,18 @@ class Conta:
     
     def extrato(self):
         print("\nCliente: ", self.titular, "\nSaldo Atual: ", self.saldo)
+
+if __name__=="__main__":
+
+    print("Testando o projeto")
+    from Cliente import Cliente
+
+    c1 = Cliente("João", "114444-2222")
+    conta = Conta(c1.get_nome(), 1222)
+    print("Estado Inicial da Conta: ")
+    print(conta.titular, " Número: ", conta.numero,
+    "\n Seu Saldo: ", conta.saldo)
+
+    conta.deposita(100)
+    conta.saque(50)
+    conta.extrato()
